@@ -1,2 +1,2 @@
-# Football-news
+# Football news
 Web site created using React
