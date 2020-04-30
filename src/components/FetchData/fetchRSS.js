@@ -25,7 +25,7 @@ class FetchDataFromRSSFeed extends Component {
         //console.log(this.state.dataFootball);
 
         // 5 news
-        for (var i = 0; i < 10; i++) {
+        for (var i = 0; i < myObj.items.length; i++) {
           if (myObj.items[i].thumbnail === "") {
             myObj.items[i].thumbnail =
               "https://about.fb.com/wp-content/uploads/2019/11/FB_Newsroom_Social.png?fit=1200%2C628";

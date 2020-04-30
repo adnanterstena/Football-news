@@ -21,7 +21,7 @@ function Header() {
   return (
     <header style={headerstyle} className="navbar-expand-lg">
       <h2> Football news</h2>
-      <div class="collapse navbar-collapse p-2">
+      <div className="collapse navbar-collapse p-2">
         <ul className="navbar-nav" style={{ margin: "auto" }}>
           <Link to="/" style={linkStyle}>
             <li className="nav-link">Home</li>
