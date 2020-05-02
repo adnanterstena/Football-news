@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import BarcaLogo from "./images/83-830955_barcelona-drawing-on-fire-logo-png-images-logo.png";
 import RealLogo from "./images/d7e59d2b72b055c2d07ec26006fc33ec.jpg";
 
-//https://www.robinwieruch.de/react-state-array-add-update-remove
-
 class Statisctics extends Component {
   constructor() {
     super();
@@ -22,11 +20,6 @@ class Statisctics extends Component {
         SpanishLeague: "",
         SpanishSuperCup: "",
       },
-      TotalTrophy: "96 - 94",
-      ChampionsLeague: "5 - 13",
-      UEFASuperCup: "5 - 4",
-      SpanishLeague: "26 - 33",
-      SpanishSuperCup: "16 - 11",
       Answers: false,
     };
   }
