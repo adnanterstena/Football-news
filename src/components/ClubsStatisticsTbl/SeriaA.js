@@ -36,7 +36,7 @@ function SeriaA(props) {
             <td>63</td>
           </tr>
           <tr>
-            <td>Lazio 26 19 5 2 60 23 37 62</td>
+            <td>Lazio</td>
             <td>26</td>
             <td>19</td>
             <td>5</td>

@@ -90,7 +90,7 @@ class Clubs extends Component {
       <div>
         <div className="row p-4">
           <img
-            className="col-md-4"
+            className="col-md-4 btn-outline-warning"
             src={PremierL}
             alt="Premier Ligue"
             width="250px"
@@ -98,7 +98,7 @@ class Clubs extends Component {
             onClick={this.TblPremierLigueEvent}
           />
           <img
-            className="col-md-4"
+            className="col-md-4 btn-outline-warning"
             src={LaLiga}
             alt="La Liga"
             width="250px"
@@ -106,7 +106,7 @@ class Clubs extends Component {
             onClick={this.TblLaLigaEvent}
           />
           <img
-            className="col-md-4"
+            className="col-md-4 btn-outline-warning"
             src={SerieA}
             alt="Serie A"
             width="250px"
@@ -116,16 +116,24 @@ class Clubs extends Component {
         </div>
         <div className="row">
           <img
-            className="col-md-4"
+            className="col-md-4 btn-outline-warning"
             src={Bundesliga}
             alt="Bundesliga"
             width="250px"
             height="250px"
             onClick={this.TblBundesligaEvent}
           />
-          <div className="col-md-4"></div>
+          <div className="col-md-4">
+            <br />
+            <br />
+            <center>
+              <h3 className="text-info">
+                Choose League to see their 5 best clubs. Until <u>09.05.2020</u>
+              </h3>
+            </center>
+          </div>
           <img
-            className="col-md-4"
+            className="col-md-4 btn-outline-warning"
             src={Ligue1}
             alt="France ligue 1"
             width="250px"

@@ -61,7 +61,7 @@ function FranceLiga1(props) {
             <td>50</td>
           </tr>
           <tr>
-            <td>Lille 28 15 4 9 35 27 8 49</td>
+            <td>Lille</td>
             <td>28</td>
             <td>15</td>
             <td>4</td>
